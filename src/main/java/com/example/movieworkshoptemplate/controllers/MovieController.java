@@ -12,13 +12,14 @@ public class MovieController {
     //Controller methods
     @GetMapping("/")
     public String index(){
-        return "Hello World welcome to my application" +
-                "/getFirst" +
-                "/getRandom" +
-                "/getTenSortByPopularity" +
-                "/howManyWonAnAward" +
-                "(Advanced) /filter?char=’x’amount=’n’" +
-                "(Advanced) /longest?g1=’x’g2=’y’";
+        return "Hello World welcome to my application:<br>" +
+                "/findall<br>" +
+                "/getFirst<br>" +
+                "/getRandom<br>" +
+                "/getTenSortByPopularity<br>" +
+                "/howManyWonAnAward<br>" +
+                "(Advanced) /filter?char=’x’amount=’n’<br>" +
+                "(Advanced) /longest?genre1=’x’genre2=’y’<br>";
     }
 
     @GetMapping("/findall")
